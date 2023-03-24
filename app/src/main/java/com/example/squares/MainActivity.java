@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 currentnum++;
-                System.out.println(width);
                 numOfSquares.setText("" + currentnum);
             }
         });
